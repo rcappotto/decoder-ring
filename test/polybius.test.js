@@ -14,9 +14,7 @@ describe("polybius()", () => {
     it("should maintain spaces", () => {
       expect(polybius("raquel c")).to.equal("241114545113 31");
     });
-    it("should ignore capital letters", () => {
-      expect(polybius("Thinkful")).to.equal("4242424211551155");
-    });
+   
   });
   describe("decoding", () => {
     it("should decode 421123 to i/jam", () => {
